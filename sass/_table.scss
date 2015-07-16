@@ -1,0 +1,16 @@
+
+table{
+  width: 100%;
+  thead{
+    background-color: $lightBlue;
+    font-family: $quant;
+  }
+  tr:nth-of-type(even){
+    background-color: rgba($jade, .2);
+  }
+  td{
+    padding-left: 10px;
+    text-align: center;
+  }
+
+}
